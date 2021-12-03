@@ -1,0 +1,12 @@
+body {
+  background-color: #0000ff;
+}
+img {
+  display: block;
+  margin: auto;
+}
+.text{
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+}
