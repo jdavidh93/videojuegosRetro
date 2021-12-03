@@ -1,0 +1,47 @@
+/*Styles*/
+
+@font-face {
+  font-family: sans-serif;
+  src: ("../font/titulo.ttf");
+}
+@font-face {
+  font-family: sans-serif;
+  src: ("../font/texto.ttf");
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+l {
+  font-family: sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
+.align {
+  text-align: justify;
+}
+
+.centrado {
+  margin: 10px auto;
+  display: block;
+}
+
+.background {
+  background-color: #c0a676;
+}
+
+l{
+width: 420px; height: 240px;  
+       text-align: justify;  
+       column-count: 2;  
+       column-gap: 2em;  
+       column-rule: 1px solid silver; 
+}
+
+l.first {
+	border-right: 5px solid #4BB495;
+}
