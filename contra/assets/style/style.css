@@ -1,3 +1,7 @@
+body {
+    background: black !important;
+}
+
 .cabecera h1 {
     display: flex;
     align-items: center;
@@ -17,6 +21,7 @@
 }
 
 .container .descrip .desc h2 {
+    color: #fff;
     font-size: 23px;
 }
 
@@ -25,13 +30,17 @@
     flex-direction: column;
 }
 
-.container .crono h2 .cronol {
-    display: flex;
-    align-items: center;
-}
-
 .container .crono .cron {
     display: flex;
     flex-direction: row;
     margin-top: 20px;
+}
+
+.container .crono .cron h2 {
+    color: #fff;
+}
+
+.container .cronol {
+    color: red;
+    text-align: center;
 }
