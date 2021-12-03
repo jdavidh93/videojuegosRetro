@@ -1,0 +1,33 @@
+.info {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(255, 110, 110);
+}
+
+.font-face {
+  font-family: Tangerine;
+}
+
+.imagen:hover {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  box-shadow: 0px 0px 15px 15px #ec731e;
+  -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+}
+
+.fuego {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.contenedor {
+  justify-content: center;
+}
