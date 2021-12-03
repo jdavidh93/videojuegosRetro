@@ -1,0 +1,37 @@
+.cabecera h1 {
+    display: flex;
+    align-items: center;
+    margin-left: 270px;
+    width: 760px;
+    height: 320px;
+    background: url('../resources/NicePng_nes-logo-png_2096874.png');
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.container .descrip {
+    display: flex;
+    flex-direction: row;
+}
+
+.container .descrip .desc h2 {
+    font-size: 23px;
+}
+
+.container .crono {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .crono h2 .cronol {
+    display: flex;
+    align-items: center;
+}
+
+.container .crono .cron {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
